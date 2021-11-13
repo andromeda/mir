@@ -1,0 +1,41 @@
+{
+  "name": "@andromeda/mir-da",
+  "version": "0.0.12",
+  "description": "Dynamic Security Analysis",
+  "main": "src/core.js",
+  "bin": {
+    "mir-da": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andromeda/mir-da.git"
+  },
+  "contributors": [
+    {
+      "name": "Nikos Vasilakis",
+      "email": "nikos@vasilak.is",
+      "url": "http://nikos.vasilak.is"
+    },
+    {
+      "name": "Grigoris Ntousakis",
+      "email": "greco1996@gmail.com",
+      "url": "http://ntousakis.com"
+    }
+  ],
+  "files": [
+    "README.md",
+    "index.js",
+    "src/analyses/rwx.js",
+    "src/analyses/rwx-enforcement.js",
+    "src/analyses/rwx-checking.js",
+    "src/analyses/rwx-performance.js",
+    "src/analyses/star-check.js"
+  ],
+  "bugs": {
+    "url": "https://github.com/andromeda/mir-da/issues"
+  },
+  "homepage": "https://github.com/andromeda/mir-da",
+  "dependencies": {
+    "@andromeda/lya": "0.0.18"
+  }
+}
