@@ -1,5 +1,7 @@
-Example usage
-=======================
+# mir-sa: Static Analysis
+> Statically analyze JavaScript programs to extract RWX sets.
+
+## Usage
 
 In order to run the static analysis run the following command:
 ```
