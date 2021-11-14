@@ -1,6 +1,7 @@
 # Dynamic Analysis
+>Dynamically analyze JavaScript programs to extract or enforce RWX sets.
 
-Dynamically analyze JavaScript programs to extract or enforce RWX sets.
+Quick Jump: [Installation](#installation) | [How to use](#how-to-use)
 
 ## Installation
 
@@ -18,7 +19,7 @@ cd mir/dynamic
 npm install
 ```
 
-## How to use mir-da
+## How to use
 mir-da <fl> [bfmp] [i=<tm>]
 
   <fl>                        File to start analysis from; defaults to index.js if it exists
