@@ -1,4 +1,4 @@
-# Dynamic Analysis
+# mir-da: Dynamic Analysis
 >Dynamically analyze JavaScript programs to extract or enforce RWX sets.
 
 Quick Jump: [Installation](#installation) | [How to use](#how-to-use)
