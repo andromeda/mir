@@ -1,5 +1,0 @@
-{
-  "testEnvironment": "node",
-  "modulePaths": ["bin", "index.js", "/node_modules/"],
-  "collectCoverageFrom": ["bin/*", "index.js"]
-}
