@@ -1,5 +1,44 @@
-Example usage
-=======================
+# mir-sa: Static Analysis
+> Statically analyze JavaScript programs to extract RWX sets.
+
+Quick Jump: [Installation](#installation) | [How to use](#how-to-use)
+
+## Installation
+
+### Option 1: Npm
+```Shell
+npm i @andromeda/mir-sa --save-dev
+```
+
+If you want to install globally, so as to analyzing any program or library in the system, replace `--save-dev` with `-g`.
+
+### Option 2: From source
+```Shell 
+git clone https://github.com/andromeda/mir/
+cd mir/static
+```
+## How to use
+
+### Option 1: Npm package
+```sh
+mir-sa [f] [bfmp] [i=]
+```
+f File-system path to focus analysis on; defaults to '.'
+
+-h, --help': Output (this) help <br />
+-v --version: Output version information <br />
+-d, dd, ddd, --debug: Add (multiple) verbosity levels 
+-b, --base-stars: When a field of a dynamically-resolved object is accessed, output '.fld' <br />
+-f, --field-stars: When a dynamically-resolved field of an object is accessed, output 'obj.' <br />
+-m, --maybe-reaching: Use a may-reach analysis, rather than a def-reach <br />
+-p, --package-level: Group permissions at the level of entire packages <br />
+-i, --include : Focus the analysis on a single module that the target module uses<br />
+
+#### Example Run 
+```sh
+mir-sa -p ./node_modules | jq .
+```
+### Option 2: Java package
 
 In order to run the static analysis run the following command:
 ```
