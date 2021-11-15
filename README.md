@@ -1,7 +1,7 @@
 # Preventing Dynamic Library Compromise on Node.js via RWX-Based Privilege Reduction
 > Presenting MIR a system addressing dynamic compromise by introducing a fine-grained read-write-execute (RWX) permission model at the boundaries of libraries.
 
-Quick Jump: [Installation](#installation) | [Repo Structure](#repo-stracture) | [Documentation](#documentation)
+Quick Jump: [Installation](#installation) | [Run](#run) | [Repo Structure](#repo-stracture) | [Documentation](#documentation)
 
 ## Installation
 This repo include both static and dynamic analysis tools. 
@@ -28,6 +28,16 @@ If you want to install globally, so as to analyzing any program or library in th
 git clone https://github.com/andromeda/mir/
 cd mir/dynamic
 npm install
+```
+## Run
+
+In order to quickly run static analysis:
+```sh
+mir-sa -p ./node_modules | jq .
+```
+In order to quickly run dynamic analysis:
+```sh
+mir-da -p ./node_modules
 ```
 
 ## Repo Stracture
