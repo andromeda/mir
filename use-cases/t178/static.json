@@ -1,0 +1,13 @@
+{
+  "ANON/main.js": {
+    "require": "rx",
+    "require('./m1.js')": "i"
+  },
+  "ANON/m1.js": {
+    "Int8Array": "r",
+    "Int8Array.BYTES_PER_ELEMENT": "w",
+    "Int8Array.length": "w",
+    "Int8Array.name": "w",
+    "Int8Array.prototype": "w"
+  }
+}

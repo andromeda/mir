@@ -1,0 +1,2 @@
+escape.length = {};
+escape.name = {};

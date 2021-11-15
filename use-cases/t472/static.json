@@ -1,0 +1,12 @@
+{
+  "ANON/main.js": {
+    "require": "rx",
+    "require('./m1.js')": "i"
+  },
+  "ANON/m1.js": {
+    "setInterval": "r",
+    "setInterval.length": "w",
+    "setInterval.name": "w",
+    "setInterval.prototype": "w"
+  }
+}

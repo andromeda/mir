@@ -1,0 +1,27 @@
+{
+  "ANON/main.js": {
+    "require": "rx",
+    "require('./m1.js')": "i"
+  },
+  "ANON/m1.js": {
+    "RegExp": "rx",
+    "RegExp.$1": "w",
+    "RegExp.$2": "w",
+    "RegExp.$3": "w",
+    "RegExp.$4": "w",
+    "RegExp.$5": "w",
+    "RegExp.$6": "w",
+    "RegExp.$7": "w",
+    "RegExp.$8": "w",
+    "RegExp.$9": "w",
+    "RegExp.$_": "w",
+    "RegExp.input": "w",
+    "RegExp.lastMatch": "w",
+    "RegExp.lastParen": "w",
+    "RegExp.leftContext": "w",
+    "RegExp.length": "w",
+    "RegExp.name": "w",
+    "RegExp.prototype": "w",
+    "RegExp.rightContext": "w"
+  }
+}

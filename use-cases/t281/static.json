@@ -1,0 +1,14 @@
+{
+  "ANON/main.js": {
+    "require": "rx",
+    "require('./m1.js')": "i"
+  },
+  "ANON/m1.js": {
+    "Proxy": "rx",
+    "Proxy.arguments": "rw",
+    "Proxy.caller": "rw",
+    "Proxy.length": "rw",
+    "Proxy.name": "rw",
+    "Proxy.revocable": "rwx"
+  }
+}

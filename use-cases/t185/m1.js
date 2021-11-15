@@ -1,0 +1,2 @@
+isFinite.length = {};
+isFinite.name = {};

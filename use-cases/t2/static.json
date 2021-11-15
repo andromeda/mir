@@ -1,0 +1,40 @@
+{
+  "ANON/m2.js": {
+    "console": "r",
+    "console.log": "rx",
+    "module": "r",
+    "module.exports": "w",
+    "require": "rx",
+    "require('./m3.js')": "ir",
+    "require('./m3.js').fst": "r",
+    "require('fs')": "ir",
+    "require('fs').mkdirSync": "r",
+    "require('fs').readFileSync": "rx",
+    "require('fs').rmdirSync": "r"
+  },
+  "ANON/m3.js": {
+    "console": "r",
+    "console.log": "rx",
+    "module": "r",
+    "module.exports": "w",
+    "require": "rx",
+    "require('fs')": "ir",
+    "require('fs').readFileSync": "rx"
+  },
+  "ANON/main.js": {
+    "require": "rx",
+    "require('./m1.js')": "ir",
+    "require('./m1.js').fst": "r",
+    "require('./m2.js')": "ir",
+    "require('./m2.js').fst": "r"
+  },
+  "ANON/m1.js": {
+    "module": "r",
+    "module.exports": "w",
+    "require": "rx",
+    "require('./m2.js')": "ir",
+    "require('./m2.js').mk": "r",
+    "require('fs')": "ir",
+    "require('fs').readFileSync": "rx"
+  }
+}

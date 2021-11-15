@@ -1,0 +1,18 @@
+var _;
+_ = Number.length;
+_ = Number.name;
+_ = Number.prototype;
+_ = Number.isFinite;
+_ = Number.isInteger;
+_ = Number.isNaN;
+_ = Number.isSafeInteger;
+_ = Number.parseFloat;
+_ = Number.parseInt;
+_ = Number.MAX_VALUE;
+_ = Number.MIN_VALUE;
+_ = Number.NaN;
+_ = Number.NEGATIVE_INFINITY;
+_ = Number.POSITIVE_INFINITY;
+_ = Number.MAX_SAFE_INTEGER;
+_ = Number.MIN_SAFE_INTEGER;
+_ = Number.EPSILON;

@@ -1,0 +1,41 @@
+{
+  "ANON/main.js": {
+    "require": "rx",
+    "require('./m1.js')": "i"
+  },
+  "ANON/m1.js": {
+    "console": "r",
+    "console.Console": "rw",
+    "console._ignoreErrors": "rw",
+    "console._stderr": "rw",
+    "console._stderrErrorHandler": "rw",
+    "console._stdout": "rw",
+    "console._stdoutErrorHandler": "rw",
+    "console._times": "rw",
+    "console.assert": "rw",
+    "console.clear": "rw",
+    "console.context": "rw",
+    "console.count": "rw",
+    "console.countReset": "rw",
+    "console.debug": "rw",
+    "console.dir": "rw",
+    "console.dirxml": "rw",
+    "console.error": "rw",
+    "console.group": "rw",
+    "console.groupCollapsed": "rw",
+    "console.groupEnd": "rw",
+    "console.info": "rw",
+    "console.log": "rw",
+    "console.markTimeline": "rw",
+    "console.profile": "rw",
+    "console.profileEnd": "rw",
+    "console.table": "rw",
+    "console.time": "rw",
+    "console.timeEnd": "rw",
+    "console.timeStamp": "rw",
+    "console.timeline": "rw",
+    "console.timelineEnd": "rw",
+    "console.trace": "rw",
+    "console.warn": "rw"
+  }
+}

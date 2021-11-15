@@ -1,0 +1,32 @@
+{
+  "PWD_REPLACE/main.js": {
+    "require": "rx",
+    "require('./m1.js')": "i"
+  },
+  "PWD_REPLACE/m1.js": {
+    "constructor": "r",
+    "constructor.assign": "rw",
+    "constructor.create": "rw",
+    "constructor.defineProperties": "rw",
+    "constructor.defineProperty": "rw",
+    "constructor.entries": "rw",
+    "constructor.freeze": "rw",
+    "constructor.getOwnPropertyDescriptor": "rw",
+    "constructor.getOwnPropertyDescriptors": "rw",
+    "constructor.getOwnPropertyNames": "rw",
+    "constructor.getOwnPropertySymbols": "rw",
+    "constructor.getPrototypeOf": "rw",
+    "constructor.is": "rw",
+    "constructor.isExtensible": "rw",
+    "constructor.isFrozen": "rw",
+    "constructor.isSealed": "rw",
+    "constructor.keys": "rw",
+    "constructor.length": "rw",
+    "constructor.name": "rw",
+    "constructor.preventExtensions": "rw",
+    "constructor.prototype": "rw",
+    "constructor.seal": "rw",
+    "constructor.setPrototypeOf": "rw",
+    "constructor.values": "rw"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "PWD_REPLACE/main.js": {
+    "require": "rx",
+    "require('./m1.js')": "i"
+  },
+  "PWD_REPLACE/m1.js": {
+    "Boolean": "rx",
+    "Boolean.length": "w",
+    "Boolean.name": "w",
+    "Boolean.prototype": "w"
+  }
+}

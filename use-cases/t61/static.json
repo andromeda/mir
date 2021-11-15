@@ -1,0 +1,12 @@
+{
+  "ANON/main.js": {
+    "require": "rx",
+    "require('./m1.js')": "i"
+  },
+  "ANON/m1.js": {
+    "DataView": "r",
+    "DataView.length": "rw",
+    "DataView.name": "rw",
+    "DataView.prototype": "rw"
+  }
+}

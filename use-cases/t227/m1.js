@@ -1,0 +1,17 @@
+Number.length = {};
+Number.name = {};
+Number.prototype = {};
+Number.isFinite = {};
+Number.isInteger = {};
+Number.isNaN = {};
+Number.isSafeInteger = {};
+Number.parseFloat = {};
+Number.parseInt = {};
+Number.MAX_VALUE = {};
+Number.MIN_VALUE = {};
+Number.NaN = {};
+Number.NEGATIVE_INFINITY = {};
+Number.POSITIVE_INFINITY = {};
+Number.MAX_SAFE_INTEGER = {};
+Number.MIN_SAFE_INTEGER = {};
+Number.EPSILON = {};

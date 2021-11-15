@@ -1,0 +1,2 @@
+encodeURI.length = {};
+encodeURI.name = {};

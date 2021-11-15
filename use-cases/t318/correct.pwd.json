@@ -1,0 +1,15 @@
+{
+  "PWD_REPLACE/main.js": {
+    "require": "rx",
+    "require('./m1.js')": "i"
+  },
+  "PWD_REPLACE/m1.js": {
+    "String": "r",
+    "String.fromCharCode": "w",
+    "String.fromCodePoint": "w",
+    "String.length": "w",
+    "String.name": "w",
+    "String.prototype": "w",
+    "String.raw": "w"
+  }
+}

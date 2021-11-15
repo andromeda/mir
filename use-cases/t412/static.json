@@ -1,0 +1,12 @@
+{
+  "ANON/main.js": {
+    "require": "rx",
+    "require('./m1.js')": "i"
+  },
+  "ANON/m1.js": {
+    "WeakMap": "rx",
+    "WeakMap.length": "rw",
+    "WeakMap.name": "r",
+    "WeakMap.prototype": "r"
+  }
+}

@@ -1,0 +1,2 @@
+parseInt.length = {};
+parseInt.name = {};

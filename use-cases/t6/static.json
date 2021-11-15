@@ -1,0 +1,14 @@
+{
+  "ANON/main.js": {
+    "require": "rx",
+    "require('./m1.js')": "ir"
+  },
+  "ANON/m1.js": {
+    "Math": "r",
+    "Math.PI": "r",
+    "console": "r",
+    "console.log": "rx",
+    "module": "r",
+    "module.exports": "w"
+  }
+}

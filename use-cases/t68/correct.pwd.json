@@ -1,0 +1,15 @@
+{
+  "PWD_REPLACE/main.js": {
+    "require": "rx",
+    "require('./m1.js')": "i"
+  },
+  "PWD_REPLACE/m1.js": {
+    "Date": "r",
+    "Date.UTC": "rw",
+    "Date.length": "rw",
+    "Date.name": "rw",
+    "Date.now": "rw",
+    "Date.parse": "rw",
+    "Date.prototype": "rw"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "PWD_REPLACE/main.js": {
+    "require": "rx",
+    "require('./m1.js')": "i"
+  },
+  "PWD_REPLACE/m1.js": {
+    "Object": "r",
+    "Object.assign": "w",
+    "Object.create": "w",
+    "Object.defineProperties": "w",
+    "Object.defineProperty": "w",
+    "Object.entries": "w",
+    "Object.freeze": "w",
+    "Object.getOwnPropertyDescriptor": "w",
+    "Object.getOwnPropertyDescriptors": "w",
+    "Object.getOwnPropertyNames": "w",
+    "Object.getOwnPropertySymbols": "w",
+    "Object.getPrototypeOf": "w",
+    "Object.is": "w",
+    "Object.isExtensible": "w",
+    "Object.isFrozen": "w",
+    "Object.isSealed": "w",
+    "Object.keys": "w",
+    "Object.length": "w",
+    "Object.name": "w",
+    "Object.preventExtensions": "w",
+    "Object.prototype": "w",
+    "Object.seal": "w",
+    "Object.setPrototypeOf": "w",
+    "Object.values": "w"
+  }
+}

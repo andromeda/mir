@@ -1,0 +1,32 @@
+{
+  "ANON/main.js": {
+    "require": "rx",
+    "require('./m1.js')": "i"
+  },
+  "ANON/m1.js": {
+    "constructor": "r",
+    "constructor.assign": "r",
+    "constructor.create": "r",
+    "constructor.defineProperties": "r",
+    "constructor.defineProperty": "r",
+    "constructor.entries": "r",
+    "constructor.freeze": "r",
+    "constructor.getOwnPropertyDescriptor": "r",
+    "constructor.getOwnPropertyDescriptors": "r",
+    "constructor.getOwnPropertyNames": "r",
+    "constructor.getOwnPropertySymbols": "r",
+    "constructor.getPrototypeOf": "r",
+    "constructor.is": "r",
+    "constructor.isExtensible": "r",
+    "constructor.isFrozen": "r",
+    "constructor.isSealed": "r",
+    "constructor.keys": "r",
+    "constructor.length": "rw",
+    "constructor.name": "r",
+    "constructor.preventExtensions": "r",
+    "constructor.prototype": "r",
+    "constructor.seal": "r",
+    "constructor.setPrototypeOf": "r",
+    "constructor.values": "r"
+  }
+}

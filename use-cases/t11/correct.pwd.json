@@ -1,0 +1,15 @@
+{
+  "PWD_REPLACE/generated.test": {
+  },
+  "PWD_REPLACE/main.js": {
+    "require": "rx",
+    "require('./m1.js')": "ir",
+    "require('./m1.js').r": "rwx",
+    "require('./m1.js').w": "rwx",
+    "require('./m1.js').x": "rwx"
+  },
+  "PWD_REPLACE/m1.js": {
+    "module": "r",
+    "module.exports": "w"
+  }
+}

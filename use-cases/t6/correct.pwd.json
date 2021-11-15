@@ -1,0 +1,16 @@
+{
+  "PWD_REPLACE/generated.test": {
+  },
+  "PWD_REPLACE/main.js": {
+    "require": "rx",
+    "require('./m1.js')": "ir"
+  },
+  "PWD_REPLACE/m1.js": {
+    "console": "r",
+    "console.log": "rx",
+    "Math": "r",
+    "Math.PI": "r",
+    "module": "r",
+    "module.exports": "w"
+  }
+}

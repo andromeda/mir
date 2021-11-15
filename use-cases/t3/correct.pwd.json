@@ -1,0 +1,18 @@
+{
+  "PWD_REPLACE/generated.test": {
+  },
+  "PWD_REPLACE/main.js": {
+    "global": "r",
+    "global.x": "w",
+    "y": "w",
+    "require": "rx",
+    "require('./m1.js')": "i"
+  },
+  "PWD_REPLACE/m1.js": {
+    "global": "r",
+    "global.x": "r",
+    "y": "r",
+    "console": "r",
+    "console.log": "rx"
+  }
+}

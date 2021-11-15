@@ -1,0 +1,11 @@
+{
+  "PWD_REPLACE/main.js": {
+    "require": "rx",
+    "require('./m1.js')": "i"
+  },
+  "PWD_REPLACE/m1.js": {
+    "parseFloat": "rx",
+    "parseFloat.length": "rw",
+    "parseFloat.name": "r"
+  }
+}

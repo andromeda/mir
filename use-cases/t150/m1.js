@@ -1,0 +1,2 @@
+hasOwnProperty.length = {};
+hasOwnProperty.name = {};

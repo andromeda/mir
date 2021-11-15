@@ -1,0 +1,17 @@
+{
+  "PWD_REPLACE/generated.test": {
+  },
+  "PWD_REPLACE/main.js": {
+    "require": "rx",
+    "require('./m1.js')": "i"
+  },
+  "PWD_REPLACE/m1.js": {
+    "process": "r",
+    "process.env": "r",
+    "process.env.CHAN": "rw",
+    "process.env.HOME": "r",
+    "process.env.PATH": "r",
+    "process.env.PWD": "r",
+    "process.env.SHELL": "r"
+  }
+}

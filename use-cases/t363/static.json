@@ -1,0 +1,13 @@
+{
+  "ANON/main.js": {
+    "require": "rx",
+    "require('./m1.js')": "i"
+  },
+  "ANON/m1.js": {
+    "Uint16Array": "rx",
+    "Uint16Array.BYTES_PER_ELEMENT": "r",
+    "Uint16Array.length": "rw",
+    "Uint16Array.name": "r",
+    "Uint16Array.prototype": "r"
+  }
+}

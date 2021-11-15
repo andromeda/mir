@@ -1,0 +1,12 @@
+{
+  "ANON/main.js": {
+    "require": "rx",
+    "require('./m1.js')": "i"
+  },
+  "ANON/m1.js": {
+    "TypeError": "r",
+    "TypeError.length": "rw",
+    "TypeError.name": "r",
+    "TypeError.prototype": "r"
+  }
+}

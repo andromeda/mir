@@ -1,0 +1,11 @@
+{
+  "PWD_REPLACE/main.js": {
+    "require": "rx",
+    "require('./m1.js')": "i"
+  },
+  "PWD_REPLACE/m1.js": {
+    "hasOwnProperty": "rx",
+    "hasOwnProperty.length": "w",
+    "hasOwnProperty.name": "w"
+  }
+}

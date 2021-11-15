@@ -1,0 +1,1 @@
+new Uint32Array();

@@ -1,0 +1,14 @@
+{
+  "ANON/main.js": {
+    "require": "rx",
+    "require('./m1.js')": "i"
+  },
+  "ANON/m1.js": {
+    "Intl": "r",
+    "Intl.Collator": "rwx",
+    "Intl.DateTimeFormat": "rwx",
+    "Intl.NumberFormat": "rwx",
+    "Intl.getCanonicalLocales": "rwx",
+    "Intl.v8BreakIterator": "rwx"
+  }
+}

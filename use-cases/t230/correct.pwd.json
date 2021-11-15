@@ -1,0 +1,26 @@
+{
+  "PWD_REPLACE/main.js": {
+    "require": "rx",
+    "require('./m1.js')": "i"
+  },
+  "PWD_REPLACE/m1.js": {
+    "Number": "rx",
+    "Number.EPSILON": "r",
+    "Number.MAX_SAFE_INTEGER": "r",
+    "Number.MAX_VALUE": "r",
+    "Number.MIN_SAFE_INTEGER": "r",
+    "Number.MIN_VALUE": "r",
+    "Number.NEGATIVE_INFINITY": "r",
+    "Number.NaN": "r",
+    "Number.POSITIVE_INFINITY": "r",
+    "Number.isFinite": "rx",
+    "Number.isInteger": "rx",
+    "Number.isNaN": "rx",
+    "Number.isSafeInteger": "rx",
+    "Number.length": "rw",
+    "Number.name": "r",
+    "Number.parseFloat": "rx",
+    "Number.parseInt": "rx",
+    "Number.prototype": "r"
+  }
+}

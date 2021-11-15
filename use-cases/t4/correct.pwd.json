@@ -1,0 +1,78 @@
+{
+  "PWD_REPLACE/generated.test": {
+  },
+  "PWD_REPLACE/main.js": {
+    "require": "rx",
+    "require('./m1.js')": "i"
+  },
+  "PWD_REPLACE/m1.js": {
+    "Array": "rx",
+    "ArrayBuffer": "rx",
+    "Float32Array": "rx",
+    "Float64Array": "rx",
+    "Function": "rx",
+    "Object": "rx",
+    "Math": "r",
+    "Math.pow": "rx",
+    "Int16Array": "rx",
+    "Int32Array": "rx",
+    "Int8Array": "rx",
+    "Object.create": "rx",
+    "isFinite": "rx",
+    "isNaN": "rx",
+    "JSON": "r",
+    "JSON.parse": "rx",
+    "Map": "rx",
+    "Math.abs": "rx",
+    "Math.exp": "rx",
+    "Math.cos": "rx",
+    "Number": "rx",
+    "Set": "rx",
+    "String": "rx",
+    "Symbol": "rx",
+    "parseFloat": "rx",
+    "parseInt": "rx",
+    "Uint8Array": "rx",
+    "Uint16Array": "rx",
+    "Uint32Array": "rx",
+    "Uint8ClampedArray": "rx",
+    "unescape": "rx",
+    "require": "rx",
+    "require('./m2.js')": "i",
+    "Boolean": "rx",
+    "DataView": "rx",
+    "Date": "rx",
+    "encodeURI": "rx",
+    "decodeURI": "rx",
+    "encodeURIComponent": "rx",
+    "Error": "rx",
+    "eval": "rx"
+  },
+  "PWD_REPLACE/m2.js": {
+    "Promise": "rx",
+    "setTimeout": "rx",
+    "Reflect": "r",
+    "Reflect.get": "rx",
+    "console": "r",
+    "console.log": "rx",
+    "require": "rx",
+    "require('./m3.js')": "i"
+  },
+  "PWD_REPLACE/m3.js": {
+    "RangeError": "rx",
+    "ReferenceError": "r",
+    "eval": "rx",
+    "SyntaxError": "r",
+    "TypeError": "r",
+    "decodeURIComponent": "rx",
+    "URIError": "r",
+    "RegExp": "rx",
+    "WeakMap": "rx",
+    "WeakSet": "rx",
+    "require": "rx",
+    "require('./m4.js')": "i"
+  },
+  "PWD_REPLACE/m4.js": {
+    "Number": "rx"
+  }
+}

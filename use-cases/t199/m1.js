@@ -1,0 +1,2 @@
+isPrototypeOf.length = {};
+isPrototypeOf.name = {};

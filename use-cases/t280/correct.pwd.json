@@ -1,0 +1,14 @@
+{
+  "PWD_REPLACE/main.js": {
+    "require": "rx",
+    "require('./m1.js')": "i"
+  },
+  "PWD_REPLACE/m1.js": {
+    "Proxy": "rx",
+    "Proxy.arguments": "w",
+    "Proxy.caller": "w",
+    "Proxy.length": "w",
+    "Proxy.name": "w",
+    "Proxy.revocable": "rwx"
+  }
+}

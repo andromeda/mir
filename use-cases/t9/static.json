@@ -1,0 +1,26 @@
+{
+  "ANON/main.js": {
+    "require": "rx",
+    "require('./math.js')": "ir",
+    "require('./math.js').add": "rx",
+    "require('./math.js').constants": "r",
+    "require('./math.js').constants.e": "r",
+    "require('./math.js').constants.pi": "rw",
+    "require('./math.js').fft": "r",
+    "require('./math.js').fft.add": "rx",
+    "require('./math.js').fft.e": "r",
+    "require('./math.js').fft.mul": "rwx",
+    "require('./math.js').sub": "rx",
+    "require('./math.js').x": "rw"
+  },
+  "ANON/math.js": {
+    "Math": "r",
+    "Math.PI": "r",
+    "console": "r",
+    "console.log": "rx",
+    "global": "r",
+    "global.timesAddCalled": "rw",
+    "module": "r",
+    "module.exports": "w"
+  }
+}

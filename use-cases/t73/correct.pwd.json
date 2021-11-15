@@ -1,0 +1,11 @@
+{
+  "PWD_REPLACE/main.js": {
+    "require": "rx",
+    "require('./m1.js')": "i"
+  },
+  "PWD_REPLACE/m1.js": {
+    "decodeURI": "r",
+    "decodeURI.length": "w",
+    "decodeURI.name": "w"
+  }
+}

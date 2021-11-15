@@ -1,0 +1,13 @@
+{
+  "PWD_REPLACE/main.js": {
+    "require": "rx",
+    "require('./m1.js')": "i"
+  },
+  "PWD_REPLACE/m1.js": {
+    "Uint8ClampedArray": "r",
+    "Uint8ClampedArray.BYTES_PER_ELEMENT": "r",
+    "Uint8ClampedArray.length": "rw",
+    "Uint8ClampedArray.name": "r",
+    "Uint8ClampedArray.prototype": "r"
+  }
+}

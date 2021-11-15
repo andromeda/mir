@@ -1,0 +1,26 @@
+{
+  "ANON/main.js": {
+    "require": "rx",
+    "require('./m1.js')": "i"
+  },
+  "ANON/m1.js": {
+    "Number": "r",
+    "Number.EPSILON": "w",
+    "Number.MAX_SAFE_INTEGER": "w",
+    "Number.MAX_VALUE": "w",
+    "Number.MIN_SAFE_INTEGER": "w",
+    "Number.MIN_VALUE": "w",
+    "Number.NEGATIVE_INFINITY": "w",
+    "Number.NaN": "w",
+    "Number.POSITIVE_INFINITY": "w",
+    "Number.isFinite": "w",
+    "Number.isInteger": "w",
+    "Number.isNaN": "w",
+    "Number.isSafeInteger": "w",
+    "Number.length": "w",
+    "Number.name": "w",
+    "Number.parseFloat": "w",
+    "Number.parseInt": "w",
+    "Number.prototype": "w"
+  }
+}

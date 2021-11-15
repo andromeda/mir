@@ -1,0 +1,12 @@
+{
+  "ANON/main.js": {
+    "require": "rx",
+    "require('./m1.js')": "i"
+  },
+  "ANON/m1.js": {
+    "setTimeout": "rx",
+    "setTimeout.length": "rw",
+    "setTimeout.name": "r",
+    "setTimeout.prototype": "r"
+  }
+}

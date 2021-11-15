@@ -1,0 +1,22 @@
+{
+  "PWD_REPLACE/main.js": {
+    "require": "rx",
+    "require('./m1.js')": "i"
+  },
+  "PWD_REPLACE/m1.js": {
+    "Reflect": "r",
+    "Reflect.apply": "w",
+    "Reflect.construct": "w",
+    "Reflect.defineProperty": "w",
+    "Reflect.deleteProperty": "w",
+    "Reflect.get": "w",
+    "Reflect.getOwnPropertyDescriptor": "w",
+    "Reflect.getPrototypeOf": "w",
+    "Reflect.has": "w",
+    "Reflect.isExtensible": "w",
+    "Reflect.ownKeys": "w",
+    "Reflect.preventExtensions": "w",
+    "Reflect.set": "w",
+    "Reflect.setPrototypeOf": "w"
+  }
+}

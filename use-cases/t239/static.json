@@ -1,0 +1,32 @@
+{
+  "ANON/main.js": {
+    "require": "rx",
+    "require('./m1.js')": "i"
+  },
+  "ANON/m1.js": {
+    "Object": "rx",
+    "Object.assign": "rwx",
+    "Object.create": "rwx",
+    "Object.defineProperties": "rw",
+    "Object.defineProperty": "rw",
+    "Object.entries": "rwx",
+    "Object.freeze": "rwx",
+    "Object.getOwnPropertyDescriptor": "rwx",
+    "Object.getOwnPropertyDescriptors": "rwx",
+    "Object.getOwnPropertyNames": "rwx",
+    "Object.getOwnPropertySymbols": "rwx",
+    "Object.getPrototypeOf": "rwx",
+    "Object.is": "rwx",
+    "Object.isExtensible": "rwx",
+    "Object.isFrozen": "rwx",
+    "Object.isSealed": "rwx",
+    "Object.keys": "rx",
+    "Object.length": "rw",
+    "Object.name": "rw",
+    "Object.preventExtensions": "rwx",
+    "Object.prototype": "rw",
+    "Object.seal": "rwx",
+    "Object.setPrototypeOf": "rw",
+    "Object.values": "rwx"
+  }
+}

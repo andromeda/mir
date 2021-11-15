@@ -1,0 +1,22 @@
+{
+  "PWD_REPLACE/main.js": {
+    "require": "rx",
+    "require('./m1.js')": "i"
+  },
+  "PWD_REPLACE/m1.js": {
+    "Buffer": "r",
+    "Buffer.alloc": "rw",
+    "Buffer.allocUnsafe": "rw",
+    "Buffer.allocUnsafeSlow": "rw",
+    "Buffer.byteLength": "rw",
+    "Buffer.compare": "rw",
+    "Buffer.concat": "rw",
+    "Buffer.from": "rw",
+    "Buffer.isBuffer": "rw",
+    "Buffer.isEncoding": "rw",
+    "Buffer.length": "rw",
+    "Buffer.name": "rw",
+    "Buffer.poolSize": "rw",
+    "Buffer.prototype": "rw"
+  }
+}

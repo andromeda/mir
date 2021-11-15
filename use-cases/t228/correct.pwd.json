@@ -1,0 +1,15 @@
+{
+  "PWD_REPLACE/main.js": {
+    "require": "rx",
+    "require('./m1.js')": "i"
+  },
+  "PWD_REPLACE/m1.js": {
+    "Number": "rx",
+    "Number.isFinite": "rx",
+    "Number.isInteger": "rx",
+    "Number.isNaN": "rx",
+    "Number.isSafeInteger": "rx",
+    "Number.parseFloat": "rx",
+    "Number.parseInt": "rx"
+  }
+}

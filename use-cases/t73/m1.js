@@ -1,0 +1,2 @@
+decodeURI.length = {};
+decodeURI.name = {};

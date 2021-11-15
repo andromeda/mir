@@ -1,0 +1,25 @@
+{
+  "PWD_REPLACE/main.js": {
+    "require": "rx",
+    "require('./m1.js')": "i"
+  },
+  "PWD_REPLACE/m1.js": {
+    "Symbol": "r",
+    "Symbol.for": "r",
+    "Symbol.hasInstance": "r",
+    "Symbol.isConcatSpreadable": "r",
+    "Symbol.iterator": "r",
+    "Symbol.keyFor": "r",
+    "Symbol.length": "rw",
+    "Symbol.match": "r",
+    "Symbol.name": "r",
+    "Symbol.prototype": "r",
+    "Symbol.replace": "r",
+    "Symbol.search": "r",
+    "Symbol.species": "r",
+    "Symbol.split": "r",
+    "Symbol.toPrimitive": "r",
+    "Symbol.toStringTag": "r",
+    "Symbol.unscopables": "r"
+  }
+}

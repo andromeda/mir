@@ -1,0 +1,41 @@
+{
+  "PWD_REPLACE/generated.test": {
+  },
+  "PWD_REPLACE/main.js": {
+    "require": "rx",
+    "require('./m1.js')": "ir",
+    "require('./m2.js')": "ir",
+    "require('./m1.js').fst": "r",
+    "require('./m2.js').fst": "r"
+  },
+  "PWD_REPLACE/m1.js": {
+    "require": "rx",
+    "require('fs')": "ir",
+    "module": "r",
+    "module.exports": "w",
+    "require('fs').readFileSync": "rx",
+    "require('./m2.js')": "i"
+  },
+  "PWD_REPLACE/m2.js": {
+    "require": "rx",
+    "require('fs')": "ir",
+    "require('./m3.js')": "ir",
+    "require('fs').readFileSync": "rx",
+    "console": "r",
+    "console.log": "rx",
+    "module": "r",
+    "module.exports": "w",
+    "require('fs').rmdirSync": "r",
+    "require('fs').mkdirSync": "r",
+    "require('./m3.js').fst": "r"
+  },
+  "PWD_REPLACE/m3.js": {
+    "require": "rx",
+    "require('fs')": "ir",
+    "require('fs').readFileSync": "rx",
+    "console": "r",
+    "console.log": "rx",
+    "module": "r",
+    "module.exports": "w"
+  }
+}

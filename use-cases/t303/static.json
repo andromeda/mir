@@ -1,0 +1,22 @@
+{
+  "ANON/main.js": {
+    "require": "rx",
+    "require('./m1.js')": "i"
+  },
+  "ANON/m1.js": {
+    "Reflect": "r",
+    "Reflect.apply": "r",
+    "Reflect.construct": "r",
+    "Reflect.defineProperty": "rw",
+    "Reflect.deleteProperty": "r",
+    "Reflect.get": "r",
+    "Reflect.getOwnPropertyDescriptor": "r",
+    "Reflect.getPrototypeOf": "r",
+    "Reflect.has": "r",
+    "Reflect.isExtensible": "r",
+    "Reflect.ownKeys": "r",
+    "Reflect.preventExtensions": "r",
+    "Reflect.set": "r",
+    "Reflect.setPrototypeOf": "r"
+  }
+}

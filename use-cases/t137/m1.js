@@ -1,0 +1,1 @@
+new Float64Array();

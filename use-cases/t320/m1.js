@@ -1,0 +1,13 @@
+var _;
+_ = String.length;
+_ = String.name;
+_ = String.prototype;
+_ = String.fromCharCode;
+_ = String.fromCodePoint;
+_ = String.raw;
+String.length = {};
+String.name = {};
+String.prototype = {};
+String.fromCharCode = {};
+String.fromCodePoint = {};
+String.raw = {};

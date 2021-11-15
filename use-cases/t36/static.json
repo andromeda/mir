@@ -1,0 +1,15 @@
+{
+  "ANON/main.js": {
+    "require": "rx",
+    "require('./m1.js')": "i"
+  },
+  "ANON/m1.js": {
+    "Array": "rx",
+    "Array.from": "rw",
+    "Array.isArray": "rw",
+    "Array.length": "rw",
+    "Array.name": "rw",
+    "Array.of": "rw",
+    "Array.prototype": "rw"
+  }
+}

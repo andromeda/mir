@@ -1,0 +1,6 @@
+DTRACE_NET_STREAM_END.length = {};
+DTRACE_NET_STREAM_END.name = {};
+DTRACE_NET_STREAM_END.arguments = {};
+DTRACE_NET_STREAM_END.caller = {};
+DTRACE_NET_STREAM_END.prototype = {};
+DTRACE_NET_STREAM_END();

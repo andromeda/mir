@@ -1,0 +1,41 @@
+{
+  "PWD_REPLACE/main.js": {
+    "require": "rx",
+    "require('./m1.js')": "i"
+  },
+  "PWD_REPLACE/m1.js": {
+    "console": "r",
+    "console.Console": "w",
+    "console._ignoreErrors": "w",
+    "console._stderr": "w",
+    "console._stderrErrorHandler": "w",
+    "console._stdout": "w",
+    "console._stdoutErrorHandler": "w",
+    "console._times": "w",
+    "console.assert": "w",
+    "console.clear": "w",
+    "console.context": "w",
+    "console.count": "w",
+    "console.countReset": "w",
+    "console.debug": "w",
+    "console.dir": "w",
+    "console.dirxml": "w",
+    "console.error": "w",
+    "console.group": "w",
+    "console.groupCollapsed": "w",
+    "console.groupEnd": "w",
+    "console.info": "w",
+    "console.log": "w",
+    "console.markTimeline": "w",
+    "console.profile": "w",
+    "console.profileEnd": "w",
+    "console.table": "w",
+    "console.time": "w",
+    "console.timeEnd": "w",
+    "console.timeStamp": "w",
+    "console.timeline": "w",
+    "console.timelineEnd": "w",
+    "console.trace": "w",
+    "console.warn": "w"
+  }
+}

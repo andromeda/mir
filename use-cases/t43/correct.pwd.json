@@ -1,0 +1,13 @@
+{
+  "PWD_REPLACE/main.js": {
+    "require": "rx",
+    "require('./m1.js')": "i"
+  },
+  "PWD_REPLACE/m1.js": {
+    "ArrayBuffer": "rx",
+    "ArrayBuffer.isView": "rwx",
+    "ArrayBuffer.length": "rw",
+    "ArrayBuffer.name": "rw",
+    "ArrayBuffer.prototype": "rw"
+  }
+}

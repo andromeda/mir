@@ -1,0 +1,12 @@
+{
+  "PWD_REPLACE/main.js": {
+    "require": "rx",
+    "require('./m1.js')": "i"
+  },
+  "PWD_REPLACE/m1.js": {
+    "ReferenceError": "rx",
+    "ReferenceError.length": "w",
+    "ReferenceError.name": "w",
+    "ReferenceError.prototype": "w"
+  }
+}

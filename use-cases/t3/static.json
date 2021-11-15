@@ -1,0 +1,14 @@
+{
+  "ANON/main.js": {
+    "global": "r",
+    "global.x": "w",
+    "require": "rx",
+    "require('./m1.js')": "i"
+  },
+  "ANON/m1.js": {
+    "console": "r",
+    "console.log": "rx",
+    "global": "r",
+    "global.x": "r"
+  }
+}

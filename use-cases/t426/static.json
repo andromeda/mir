@@ -1,0 +1,22 @@
+{
+  "ANON/main.js": {
+    "require": "rx",
+    "require('./m1.js')": "i"
+  },
+  "ANON/m1.js": {
+    "Buffer": "rx",
+    "Buffer.alloc": "rx",
+    "Buffer.allocUnsafe": "rx",
+    "Buffer.allocUnsafeSlow": "rx",
+    "Buffer.byteLength": "rx",
+    "Buffer.compare": "rx",
+    "Buffer.concat": "rx",
+    "Buffer.from": "rx",
+    "Buffer.isBuffer": "rx",
+    "Buffer.isEncoding": "rx",
+    "Buffer.length": "rw",
+    "Buffer.name": "r",
+    "Buffer.poolSize": "r",
+    "Buffer.prototype": "r"
+  }
+}

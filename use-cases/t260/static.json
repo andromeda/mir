@@ -1,0 +1,17 @@
+{
+  "ANON/main.js": {
+    "require": "rx",
+    "require('./m1.js')": "i"
+  },
+  "ANON/m1.js": {
+    "Promise": "rx",
+    "Promise.all": "rwx",
+    "Promise.length": "rw",
+    "Promise.name": "rw",
+    "Promise.prototype": "rw",
+    "Promise.race": "rwx",
+    "Promise.reject": "rwx",
+    "Promise.resolve": "rwx",
+    "setTimeout": "rx"
+  }
+}

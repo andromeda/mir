@@ -1,0 +1,16 @@
+{
+  "ANON/m2.js": {
+    "console": "r",
+    "console.log": "rx"
+  },
+  "ANON/main.js": {
+    "require": "rx",
+    "require('./m1.js')": "irx"
+  },
+  "ANON/m1.js": {
+    "module": "r",
+    "module.exports": "w",
+    "require": "rx",
+    "require('./m2.js')": "i"
+  }
+}

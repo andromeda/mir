@@ -1,0 +1,2 @@
+decodeURIComponent.length = {};
+decodeURIComponent.name = {};

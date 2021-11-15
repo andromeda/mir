@@ -1,0 +1,10 @@
+Buffer('foo');
+Buffer.from('foo');
+Buffer.alloc(1);
+Buffer.allocUnsafe(1);
+Buffer.allocUnsafeSlow(1);
+Buffer.isBuffer('foo');
+Buffer.compare();
+Buffer.isEncoding();
+Buffer.concat();
+Buffer.byteLength();

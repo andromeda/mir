@@ -1,0 +1,2 @@
+isNaN.length = {};
+isNaN.name = {};

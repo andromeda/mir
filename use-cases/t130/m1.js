@@ -1,0 +1,1 @@
+new Float32Array();

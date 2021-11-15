@@ -1,0 +1,15 @@
+{
+  "ANON/main.js": {
+    "require": "rx",
+    "require('./m1.js')": "i"
+  },
+  "ANON/m1.js": {
+    "process": "r",
+    "process.env": "r",
+    "process.env.CHAN": "rw",
+    "process.env.HOME": "r",
+    "process.env.PATH": "r",
+    "process.env.PWD": "r",
+    "process.env.SHELL": "r"
+  }
+}

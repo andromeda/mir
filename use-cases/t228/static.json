@@ -1,0 +1,15 @@
+{
+  "ANON/main.js": {
+    "require": "rx",
+    "require('./m1.js')": "i"
+  },
+  "ANON/m1.js": {
+    "Number": "rx",
+    "Number.isFinite": "rx",
+    "Number.isInteger": "rx",
+    "Number.isNaN": "rx",
+    "Number.isSafeInteger": "rx",
+    "Number.parseFloat": "rx",
+    "Number.parseInt": "rx"
+  }
+}

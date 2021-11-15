@@ -1,0 +1,14 @@
+{
+  "PWD_REPLACE/main.js": {
+    "require": "rx",
+    "require('./m1.js')": "i"
+  },
+  "PWD_REPLACE/m1.js": {
+    "Intl": "r",
+    "Intl.Collator": "rx",
+    "Intl.DateTimeFormat": "rwx",
+    "Intl.NumberFormat": "rx",
+    "Intl.getCanonicalLocales": "rx",
+    "Intl.v8BreakIterator": "rx"
+  }
+}

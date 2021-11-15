@@ -1,0 +1,12 @@
+{
+  "PWD_REPLACE/main.js": {
+    "require": "rx",
+    "require('./m1.js')": "i"
+  },
+  "PWD_REPLACE/m1.js": {
+    "Function": "r",
+    "Function.length": "rw",
+    "Function.name": "rw",
+    "Function.prototype": "rw"
+  }
+}

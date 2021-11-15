@@ -1,0 +1,13 @@
+{
+  "ANON/main.js": {
+    "require": "rx",
+    "require('./m1.js')": "i"
+  },
+  "ANON/m1.js": {
+    "Uint8ClampedArray": "rx",
+    "Uint8ClampedArray.BYTES_PER_ELEMENT": "w",
+    "Uint8ClampedArray.length": "w",
+    "Uint8ClampedArray.name": "w",
+    "Uint8ClampedArray.prototype": "w"
+  }
+}

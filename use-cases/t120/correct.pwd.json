@@ -1,0 +1,11 @@
+{
+  "PWD_REPLACE/main.js": {
+    "require": "rx",
+    "require('./m1.js')": "i"
+  },
+  "PWD_REPLACE/m1.js": {
+    "eval": "rx",
+    "eval.length": "rw",
+    "eval.name": "rw"
+  }
+}

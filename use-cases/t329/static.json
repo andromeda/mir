@@ -1,0 +1,25 @@
+{
+  "ANON/main.js": {
+    "require": "rx",
+    "require('./m1.js')": "i"
+  },
+  "ANON/m1.js": {
+    "Symbol": "rx",
+    "Symbol.for": "rwx",
+    "Symbol.hasInstance": "w",
+    "Symbol.isConcatSpreadable": "w",
+    "Symbol.iterator": "rw",
+    "Symbol.keyFor": "rwx",
+    "Symbol.length": "w",
+    "Symbol.match": "w",
+    "Symbol.name": "w",
+    "Symbol.prototype": "w",
+    "Symbol.replace": "w",
+    "Symbol.search": "w",
+    "Symbol.species": "w",
+    "Symbol.split": "w",
+    "Symbol.toPrimitive": "w",
+    "Symbol.toStringTag": "w",
+    "Symbol.unscopables": "w"
+  }
+}

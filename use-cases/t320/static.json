@@ -1,0 +1,15 @@
+{
+  "ANON/main.js": {
+    "require": "rx",
+    "require('./m1.js')": "i"
+  },
+  "ANON/m1.js": {
+    "String": "r",
+    "String.fromCharCode": "rw",
+    "String.fromCodePoint": "rw",
+    "String.length": "rw",
+    "String.name": "rw",
+    "String.prototype": "rw",
+    "String.raw": "rw"
+  }
+}

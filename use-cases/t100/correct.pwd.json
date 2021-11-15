@@ -1,0 +1,14 @@
+{
+  "PWD_REPLACE/main.js": {
+    "require": "rx",
+    "require('./m1.js')": "i"
+  },
+  "PWD_REPLACE/m1.js": {
+    "Error": "r",
+    "Error.captureStackTrace": "r",
+    "Error.length": "rw",
+    "Error.name": "r",
+    "Error.prototype": "r",
+    "Error.stackTraceLimit": "r"
+  }
+}

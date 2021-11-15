@@ -1,0 +1,20 @@
+{
+  "PWD_REPLACE/generated.test": {
+  },
+  "PWD_REPLACE/main.js": {
+    "require": "rx",
+    "require('fs')": "ir",
+    "require('./m1.js')": "i",
+    "require('fs').createWriteStream": "rx"
+  },
+  "PWD_REPLACE/m1.js": {
+    "Number": "rx",
+    "require": "rx",
+    "require('./m2.js')": "ir",
+    "require('./m2.js').add": "rx"
+  },
+  "PWD_REPLACE/m2.js": {
+    "module": "r",
+    "module.exports": "w"
+  }
+}

@@ -1,0 +1,2 @@
+toString.length = {};
+toString.name = {};

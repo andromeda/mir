@@ -1,0 +1,17 @@
+var _;
+_ = Symbol.length;
+_ = Symbol.name;
+_ = Symbol.prototype;
+_ = Symbol.for;
+_ = Symbol.keyFor;
+_ = Symbol.hasInstance;
+_ = Symbol.isConcatSpreadable;
+_ = Symbol.iterator;
+_ = Symbol.match;
+_ = Symbol.replace;
+_ = Symbol.search;
+_ = Symbol.species;
+_ = Symbol.split;
+_ = Symbol.toPrimitive;
+_ = Symbol.toStringTag;
+_ = Symbol.unscopables;

@@ -1,0 +1,15 @@
+{
+  "ANON/main.js": {
+    "require": "rx",
+    "require('./m1.js')": "i"
+  },
+  "ANON/m1.js": {
+    "__dirname": "r",
+    "__filename": "r",
+    "console": "r",
+    "console.log": "rx",
+    "exports": "r",
+    "module": "r",
+    "require": "r"
+  }
+}

@@ -1,0 +1,2 @@
+valueOf.length = {};
+valueOf.name = {};

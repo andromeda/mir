@@ -1,0 +1,34 @@
+{
+  "ANON/m2.js": {
+    "Date": "rx",
+    "console": "r",
+    "console.log": "rx",
+    "require": "rx",
+    "require('./m3.js')": "i",
+    "require('./m4.js')": "i"
+  },
+  "ANON/m3.js": {
+    "Date": "rx",
+    "console": "r",
+    "console.log": "rx"
+  },
+  "ANON/main.js": {
+    "global": "r",
+    "global.test": "w",
+    "require": "rx",
+    "require('./m1.js')": "i"
+  },
+  "ANON/m1.js": {
+    "Math": "r",
+    "Math.abs": "rx",
+    "global": "r",
+    "global.test": "w",
+    "require": "rx",
+    "require('./m2.js')": "i"
+  },
+  "ANON/m4.js": {
+    "Date": "rx",
+    "console": "r",
+    "console.log": "rx"
+  }
+}

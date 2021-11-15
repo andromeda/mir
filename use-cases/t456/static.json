@@ -1,0 +1,41 @@
+{
+  "ANON/main.js": {
+    "require": "rx",
+    "require('./m1.js')": "i"
+  },
+  "ANON/m1.js": {
+    "console": "r",
+    "console.Console": "rwx",
+    "console._ignoreErrors": "rw",
+    "console._stderr": "rw",
+    "console._stderrErrorHandler": "rwx",
+    "console._stdout": "rw",
+    "console._stdoutErrorHandler": "rwx",
+    "console._times": "rw",
+    "console.assert": "rwx",
+    "console.clear": "rwx",
+    "console.context": "rwx",
+    "console.count": "rwx",
+    "console.countReset": "rwx",
+    "console.debug": "rwx",
+    "console.dir": "rwx",
+    "console.dirxml": "rwx",
+    "console.error": "rwx",
+    "console.group": "rwx",
+    "console.groupCollapsed": "rwx",
+    "console.groupEnd": "rwx",
+    "console.info": "rwx",
+    "console.log": "rwx",
+    "console.markTimeline": "rwx",
+    "console.profile": "rwx",
+    "console.profileEnd": "rwx",
+    "console.table": "rwx",
+    "console.time": "rwx",
+    "console.timeEnd": "rwx",
+    "console.timeStamp": "rwx",
+    "console.timeline": "rwx",
+    "console.timelineEnd": "rwx",
+    "console.trace": "rwx",
+    "console.warn": "rwx"
+  }
+}

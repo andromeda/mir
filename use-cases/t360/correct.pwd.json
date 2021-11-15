@@ -1,0 +1,13 @@
+{
+  "PWD_REPLACE/main.js": {
+    "require": "rx",
+    "require('./m1.js')": "i"
+  },
+  "PWD_REPLACE/m1.js": {
+    "Uint16Array": "r",
+    "Uint16Array.BYTES_PER_ELEMENT": "w",
+    "Uint16Array.length": "w",
+    "Uint16Array.name": "w",
+    "Uint16Array.prototype": "w"
+  }
+}

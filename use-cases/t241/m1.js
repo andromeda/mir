@@ -1,0 +1,2 @@
+parseFloat.length = {};
+parseFloat.name = {};

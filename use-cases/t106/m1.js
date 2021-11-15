@@ -1,0 +1,13 @@
+var _;
+_ = Error.length;
+_ = Error.name;
+_ = Error.prototype;
+_ = Error.captureStackTrace;
+_ = Error.stackTraceLimit;
+Error.length = {};
+Error.name = {};
+Error.prototype = {};
+Error.captureStackTrace = {};
+Error.stackTraceLimit = {};
+Error();
+Error.captureStackTrace;

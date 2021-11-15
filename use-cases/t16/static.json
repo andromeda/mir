@@ -1,0 +1,11 @@
+{
+  "ANON/m2.js": {},
+  "ANON/main.js": {
+    "require": "rx",
+    "require('./m1.js')": "i"
+  },
+  "ANON/m1.js": {
+    "require": "rx",
+    "require('./m2.js')": "i"
+  }
+}

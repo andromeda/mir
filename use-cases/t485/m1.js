@@ -1,0 +1,11 @@
+var _;
+_ = WebAssembly.compile;
+_ = WebAssembly.validate;
+_ = WebAssembly.instantiate;
+_ = WebAssembly.Module;
+_ = WebAssembly.Instance;
+_ = WebAssembly.Table;
+_ = WebAssembly.Memory;
+_ = WebAssembly.CompileError;
+_ = WebAssembly.LinkError;
+_ = WebAssembly.RuntimeError;

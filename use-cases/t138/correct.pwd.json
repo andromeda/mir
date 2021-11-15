@@ -1,0 +1,13 @@
+{
+  "PWD_REPLACE/main.js": {
+    "require": "rx",
+    "require('./m1.js')": "i"
+  },
+  "PWD_REPLACE/m1.js": {
+    "Float64Array": "r",
+    "Float64Array.BYTES_PER_ELEMENT": "rw",
+    "Float64Array.length": "rw",
+    "Float64Array.name": "rw",
+    "Float64Array.prototype": "rw"
+  }
+}

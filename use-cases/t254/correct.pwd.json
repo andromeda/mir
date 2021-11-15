@@ -1,0 +1,16 @@
+{
+  "PWD_REPLACE/main.js": {
+    "require": "rx",
+    "require('./m1.js')": "i"
+  },
+  "PWD_REPLACE/m1.js": {
+    "Promise": "r",
+    "Promise.all": "r",
+    "Promise.length": "rw",
+    "Promise.name": "r",
+    "Promise.prototype": "r",
+    "Promise.race": "r",
+    "Promise.reject": "r",
+    "Promise.resolve": "r"
+  }
+}

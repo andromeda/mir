@@ -1,0 +1,12 @@
+{
+  "PWD_REPLACE/main.js": {
+    "require": "rx",
+    "require('./m1.js')": "i"
+  },
+  "PWD_REPLACE/m1.js": {
+    "clearImmediate": "rx",
+    "clearImmediate.length": "w",
+    "clearImmediate.name": "w",
+    "clearImmediate.prototype": "w"
+  }
+}

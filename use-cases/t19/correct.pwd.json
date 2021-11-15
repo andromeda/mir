@@ -1,0 +1,36 @@
+{
+  "PWD_REPLACE/generated.test": {
+  },
+  "PWD_REPLACE/main.js": {
+    "require": "rx",
+    "require('./m1.js')": "i",
+    "global": "r",
+    "global.test": "w"
+  },
+  "PWD_REPLACE/m1.js": {
+    "Math": "r",
+    "Math.abs": "rx",
+    "global": "r",
+    "global.test": "w",
+    "require": "rx",
+    "require('./m2.js')": "i"
+  },
+  "PWD_REPLACE/m2.js": {
+    "console": "r",
+    "console.log": "rx",
+    "require": "rx",
+    "require('./m3.js')": "i",
+    "require('./m4.js')": "i",
+    "Date": "rx"
+  },
+  "PWD_REPLACE/m3.js": {
+    "console": "r",
+    "console.log": "rx",
+    "Date": "rx"
+  },
+  "PWD_REPLACE/m4.js": {
+    "console": "r",
+    "console.log": "rx",
+    "Date": "rx"
+  }
+}

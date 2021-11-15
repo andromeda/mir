@@ -1,0 +1,15 @@
+{
+  "PWD_REPLACE/main.js": {
+    "require": "rx",
+    "require('./m1.js')": "i"
+  },
+  "PWD_REPLACE/m1.js": {
+    "Array": "r",
+    "Array.from": "rw",
+    "Array.isArray": "rw",
+    "Array.length": "rw",
+    "Array.name": "rw",
+    "Array.of": "rw",
+    "Array.prototype": "rw"
+  }
+}

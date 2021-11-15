@@ -1,0 +1,33 @@
+{
+  "main": {
+    "require('fs')": "R",
+    "require('./m1.js')": "R",
+    "bound consoleCall": "E",
+    "require('./m2.js')": "R",
+    "require('fs').createWriteStream": "RE"
+  },
+  "m1.js": {
+    "Object": "R",
+    "require('fs')": "R",
+    "require('fs').openSync": "RE",
+    "require('fs').readFileSync": "RE",
+    "require('./m2.js')": "R"
+  },
+  "m2.js": {
+    "Object": "R",
+    "require('fs')": "R",
+    "require('./m3.js')": "R",
+    "require('fs').readFileSync": "ER",
+    "require('fs').openSync": "E",
+    "bound consoleCall": "E",
+    "require('fs').rmdirSync": "R",
+    "require('fs').mkdirSync": "R"
+  },
+  "m3.js": {
+    "Object": "R",
+    "require('fs')": "R",
+    "require('fs').readFileSync": "RE",
+    "require('fs').openSync": "E",
+    "bound consoleCall": "E"
+  }
+}

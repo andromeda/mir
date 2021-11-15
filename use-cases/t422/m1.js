@@ -1,0 +1,14 @@
+var _;
+_ = Buffer.length;
+_ = Buffer.name;
+_ = Buffer.prototype;
+_ = Buffer.poolSize;
+_ = Buffer.from;
+_ = Buffer.alloc;
+_ = Buffer.allocUnsafe;
+_ = Buffer.allocUnsafeSlow;
+_ = Buffer.isBuffer;
+_ = Buffer.compare;
+_ = Buffer.isEncoding;
+_ = Buffer.concat;
+_ = Buffer.byteLength;

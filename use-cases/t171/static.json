@@ -1,0 +1,13 @@
+{
+  "ANON/main.js": {
+    "require": "rx",
+    "require('./m1.js')": "i"
+  },
+  "ANON/m1.js": {
+    "Int32Array": "r",
+    "Int32Array.BYTES_PER_ELEMENT": "w",
+    "Int32Array.length": "w",
+    "Int32Array.name": "w",
+    "Int32Array.prototype": "w"
+  }
+}

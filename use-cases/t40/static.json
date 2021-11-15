@@ -1,0 +1,13 @@
+{
+  "ANON/main.js": {
+    "require": "rx",
+    "require('./m1.js')": "i"
+  },
+  "ANON/m1.js": {
+    "ArrayBuffer": "r",
+    "ArrayBuffer.isView": "rw",
+    "ArrayBuffer.length": "rw",
+    "ArrayBuffer.name": "rw",
+    "ArrayBuffer.prototype": "rw"
+  }
+}
