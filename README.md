@@ -10,7 +10,8 @@ This repo include both static and dynamic analysis tools.
 
 #### Option 1: Npm
 ```Shell
-npm i @andromeda/mir-sa --save-dev
+sudo apt install default-jre 
+npm i @andromeda/mir-sa --save-dev # Then install mir-sa
 ```
 If you want to install globally, so as to analyzing any program or library in the system, replace `--save-dev` with `-g`.
 
