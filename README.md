@@ -1,7 +1,7 @@
 # Preventing Dynamic Library Compromise on Node.js via RWX-Based Privilege Reduction
 > Presenting MIR a system addressing dynamic compromise by introducing a fine-grained read-write-execute (RWX) permission model at the boundaries of libraries.
 
-Quick Jump: [Installation](#installation) | [Run](#run) | [Repo Structure](#repo-stracture) | [Documentation](#documentation)
+Quick Jump: [Installation](#installation) | [Run](#run) | [Repo Structure](#repo-stracture) | [Documentation](#documentation) | [Citing](#citing)
 
 ## Installation
 This repo include both static and dynamic analysis tools. 
@@ -52,3 +52,17 @@ This repo hosts all the different components of the MIR paper. This repo is stra
 ## Documentation
 
 * [Paper](http://nikos.vasilak.is/p/mir:ccs:2021.pdf)
+
+## Citing
+
+If you used Mir, consider citing the following paper:
+
+```
+@inproceedings{vasilakis2021preventing,
+  title={Preventing dynamic library compromise on node. js via rwx-based privilege reduction},
+  author={Vasilakis, Nikos and Staicu, Cristian-Alexandru and Ntousakis, Grigoris and Kallas, Konstantinos and Karel, Ben and DeHon, Andr{\'e} and Pradel, Michael},
+  booktitle={Proceedings of the 2021 ACM SIGSAC Conference on Computer and Communications Security},
+  pages={1821--1838},
+  year={2021}
+}
+```
